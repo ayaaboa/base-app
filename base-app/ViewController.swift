@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        HttpTool.get(url: <#T##String#>, param: <#T##[String : Any]#>, result: <#T##(HttpToolResult) -> Void#>)
+        
+        
     }
 
 

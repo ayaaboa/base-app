@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.7.2)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.1.15.3)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SnapKit (4.0.0)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - MBProgressHUD
+  - MJRefresh
+  - SDWebImage
+  - SnapKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 2aef12e56badee9c8c1ccffb2f3754b161f72205
+
+COCOAPODS: 1.5.2
