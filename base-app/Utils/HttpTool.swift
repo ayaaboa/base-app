@@ -10,6 +10,7 @@ import UIKit
 import Alamofire
 import SwiftyJSON
 
+
 enum HttpToolResult {
     case success(JSON)
     case successWithErrorMessage(String)
@@ -17,15 +18,14 @@ enum HttpToolResult {
 }
 
 
-
-
 class HttpTool: NSObject {
    
-    let baseUrl = "http://lbs-app-backend-dev.obaymax.com"
+    var baseUrl : String
     let debugPrintEnable = true
     
     static let share = HttpTool()
     private override init(){
+        self.baseUrl = BaseUrl
         self.httpHeader = ["Content-Type":"application/json"]
     }
     

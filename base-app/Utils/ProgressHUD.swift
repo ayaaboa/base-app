@@ -9,12 +9,11 @@
 import Foundation
 import UIKit
 import MBProgressHUD
-import SDWebImage
+import SDWebImage   //用来加载gif
 
-let HUD_SCREEN_WIDTH = UIScreen.main.bounds.size.width
 
 let hideDelay:TimeInterval = 1.5
-let hudMinSize = CGSize(width: 100.0, height: 100.0)
+let hudMinSize = CGSize(width: 100.0, height: 100.0)    //显示最小尺寸
 
 class ProgressHUD: NSObject {
     
@@ -38,6 +37,10 @@ class ProgressHUD: NSObject {
     
     class func hide(){
         shareHUD.hud.hide(animated: true)
+    }
+    
+    class func hide(after:TimeInterval){
+        shareHUD.hud.hide(animated: true, afterDelay: after)
     }
     
     class func showSuccessHUD(on view:UIView){

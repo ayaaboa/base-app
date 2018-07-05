@@ -13,8 +13,25 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        HttpTool.get(url: <#T##String#>, param: <#T##[String : Any]#>, result: <#T##(HttpToolResult) -> Void#>)
-        
+        let param = ["loginName":"18940864676","password":"qqqqqq"]
+        HttpTool.post(url: TestLoginUrl,
+                      param: param) { (httpResult) in
+                        switch httpResult{
+                        case .success(let json):
+                            let jsonData = json.description.data(using: .utf8)!
+                            do{
+                                let model = try JSONDecoder().decode(UserModel.self, from: jsonData)
+                                print(model)
+                            }catch{
+                                print(error.localizedDescription)
+                            }
+                        case .successWithErrorMessage(let msg):
+                            ProgressHUD.showErrorHUD(text: msg, on: self.view)
+                            ProgressHUD.hide(after: 2)
+                        case .failure(let error):
+                            print(error.localizedDescription)
+                        }
+        }
         
     }
 

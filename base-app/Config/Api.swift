@@ -6,5 +6,6 @@
 //  Copyright © 2018年 陈亚勃. All rights reserved.
 //
 
-let BaseUrl = ""
-let TestUrl = ""
+let BaseUrl = "http://lbs-app-backend-dev.obaymax.com"
+let TestLoginUrl = "/adminLogin/adminLogin"
+let TestUploadUrl = ""

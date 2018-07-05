@@ -18,6 +18,8 @@
 		C571955620EDAEDA002D16E2 /* HttpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = C571955520EDAEDA002D16E2 /* HttpTool.swift */; };
 		C571955920EDB554002D16E2 /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C571955820EDB554002D16E2 /* UIImage+Utils.swift */; };
 		C571955C20EDCAE0002D16E2 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = C571955B20EDCAE0002D16E2 /* Api.swift */; };
+		C571955E20EDCE46002D16E2 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = C571955D20EDCE46002D16E2 /* loading.gif */; };
+		C571956020EDED35002D16E2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C571955F20EDED35002D16E2 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		C571955520EDAEDA002D16E2 /* HttpTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpTool.swift; sourceTree = "<group>"; };
 		C571955820EDB554002D16E2 /* UIImage+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Utils.swift"; sourceTree = "<group>"; };
 		C571955B20EDCAE0002D16E2 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		C571955D20EDCE46002D16E2 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		C571955F20EDED35002D16E2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 				C571954C20ECDB94002D16E2 /* Utils */,
 				C571954E20ECDB94002D16E2 /* Config */,
 				C571953A20ECD917002D16E2 /* AppDelegate.swift */,
+				C571955F20EDED35002D16E2 /* UserModel.swift */,
 				C571953C20ECD917002D16E2 /* ViewController.swift */,
 				C571955A20EDCA7A002D16E2 /* Support files */,
 				C571954620ECD918002D16E2 /* Info.plist */,
@@ -120,6 +125,7 @@
 		C571955A20EDCA7A002D16E2 /* Support files */ = {
 			isa = PBXGroup;
 			children = (
+				C571955D20EDCE46002D16E2 /* loading.gif */,
 				C571953E20ECD917002D16E2 /* Main.storyboard */,
 				C571954120ECD918002D16E2 /* Assets.xcassets */,
 				C571954320ECD918002D16E2 /* LaunchScreen.storyboard */,
@@ -196,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C571954520ECD918002D16E2 /* LaunchScreen.storyboard in Resources */,
+				C571955E20EDCE46002D16E2 /* loading.gif in Resources */,
 				C571954220ECD918002D16E2 /* Assets.xcassets in Resources */,
 				C571954020ECD917002D16E2 /* Main.storyboard in Resources */,
 			);
@@ -259,6 +266,7 @@
 			files = (
 				C571953D20ECD917002D16E2 /* ViewController.swift in Sources */,
 				C571955420ECDB94002D16E2 /* Config.swift in Sources */,
+				C571956020EDED35002D16E2 /* UserModel.swift in Sources */,
 				C571955620EDAEDA002D16E2 /* HttpTool.swift in Sources */,
 				C571955920EDB554002D16E2 /* UIImage+Utils.swift in Sources */,
 				C571953B20ECD917002D16E2 /* AppDelegate.swift in Sources */,
